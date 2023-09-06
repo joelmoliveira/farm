@@ -31,9 +31,6 @@ import footerRoutes from "footer.routes";
 // Images
 import bgImage from "assets/images/bg-presentation.jpg";
 
-// Copy
-import de from "assets/copy/de.json";
-
 function Presentation() {
   return (
     <>

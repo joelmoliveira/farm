@@ -1,0 +1,43 @@
+{
+    "homepage": {
+      "welcome": "Willkommen auf unserer Homepage",
+      "description": "Hier finden Sie alle Informationen, die Sie benötigen.",
+      "callToAction": "Jetzt entdecken",
+      "cta": {
+        "title": "Unsere Lösungen",
+        "description": "Entdecken Sie unsere innovativen Lösungen.",
+        "exploreButton": "Mehr erfahren"
+      },
+      "howItWorks": {
+        "title": "Wie es funktioniert",
+        "step1": "Schritt 1: Anfrage stellen",
+        "step2": "Schritt 2: Wir bearbeiten Ihre Anfrage",
+        "step3": "Schritt 3: Angebot erhalten",
+        "step4": "Schritt 4: Bestellung abschließen"
+      },
+      "industries": {
+        "title": "Branchen",
+        "industry1": "Industrie 1",
+        "industry2": "Industrie 2",
+        "industry3": "Industrie 3",
+        "industry4": "Industrie 4"
+      },
+      "technologies": {
+        "title": "Technologien",
+        "technology1": "Technologie 1",
+        "technology2": "Technologie 2",
+        "technology3": "Technologie 3",
+        "technology4": "Technologie 4"
+      }
+    },
+    "contact": {
+  
+    },
+    "onlineQuote": {
+  
+    },
+    "services": {
+  
+    }
+  }
+  
