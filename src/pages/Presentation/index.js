@@ -35,6 +35,8 @@ import bgImage from "assets/images/bg-presentation.jpg";
 import de from "assets/copy/de.json";
 
 function Presentation() {
+  const copyHome = de.homepage;
+
   return (
     <>
       <DefaultNavbar
@@ -71,7 +73,7 @@ function Presentation() {
                 },
               })}
             >
-              Schweizer 3d-Druckservice{" "}
+              {copyHome.cta.title}{" "}
             </MKTypography>
             <MKTypography
               variant="body1"

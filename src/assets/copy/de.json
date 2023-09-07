@@ -1,5 +1,10 @@
 {
   "homepage": {
+    "cta": {
+      "title": "Schweizer 3d-Druckservice",
+      "description": "3d-Drucken Online-Service für jedermann. Klicken und drucken",
+      "ctaButton": "Mehr erfahren"
+    },
     "counter1": {
       "count": 70,
       "suffix": "+",
@@ -20,11 +25,6 @@
     "welcome": "Willkommen auf unserer Homepage",
     "description": "Hier finden Sie alle Informationen, die Sie benötigen.",
     "callToAction": "Jetzt entdecken",
-    "cta": {
-      "title": "Unsere Lösungen",
-      "description": "Entdecken Sie unsere innovativen Lösungen.",
-      "exploreButton": "Mehr erfahren"
-    },
     "howItWorks": {
       "title": "Wie es funktioniert",
       "step1": "Schritt 1: Anfrage stellen",
