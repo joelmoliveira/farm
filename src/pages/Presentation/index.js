@@ -35,7 +35,7 @@ import bgImage from "assets/images/bg-presentation.jpg";
 import de from "assets/copy/de.json";
 
 function Presentation() {
-  const copyHome = de.homepage;
+  const copyHomepage = de;
 
   return (
     <>
@@ -43,14 +43,14 @@ function Presentation() {
         routes={routes}
         action={{
           type: "external",
-          route: "https://www.creative-tim.com/product/material-kit-react",
-          label: "free download",
+          route: "",
+          label: copyHomepage.routes.quote,
           color: "info",
         }}
         sticky
       />
       <MKBox
-        minHeight="75vh"
+        minHeight="90vh"
         width="100%"
         sx={{
           backgroundImage: `url(${bgImage})`,
@@ -73,7 +73,7 @@ function Presentation() {
                 },
               })}
             >
-              {copyHome.cta.title}{" "}
+              {copyHomepage.homepage.cta.title}{" "}
             </MKTypography>
             <MKTypography
               variant="body1"

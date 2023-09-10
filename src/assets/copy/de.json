@@ -1,4 +1,21 @@
 {
+  "routes": {
+    "home": "Cheesy Farm",
+    "portfolio": "Portfolio",
+    "services": {
+      "head": "Dienstleistung",
+      "technologies": "Technologien",
+      "how": "Wie es funktioniert"
+    },
+    "about": {
+      "title": "Über uns",
+      "partner": "Partner mit uns",
+      "aboutUs": "Über uns",
+      "contactUs": "Kontakt"
+    },
+    "quote": "Online Angebot"
+  },
+  
   "homepage": {
     "cta": {
       "title": "Schweizer 3d-Druckservice",
