@@ -20,8 +20,23 @@
     "cta": {
       "title": "Schweizer 3d-Druckservice",
       "description": "3d-Drucken Online-Service für jedermann. Klicken und drucken",
-      "ctaButton": "Mehr erfahren"
+      "ctaButton": "Mehr erfahren",
+      "button": "Online Angebot"
     },
+    "counter": [
+      {
+        "title": "You design it",
+        "description": "From buttons, to inputs, navbars, alerts or cards, you are covered"
+      },
+      {
+        "title": "We print it",
+        "description": "Mix the sections, change the colors and unleash your creativity"
+      },
+      {
+        "title": "You receive it",
+        "description": "Save 3-4 weeks of work when you use our pre-made pages for your website"
+      }
+    ],
     "counter1": {
       "count": 70,
       "suffix": "+",

@@ -15,7 +15,8 @@ import DefaultFooter from "examples/Footers/DefaultFooter";
 import FilledInfoCard from "examples/Cards/InfoCards/FilledInfoCard";
 
 // Presentation page sections
-import Counters from "pages/Presentation/sections/Counters";
+// import Counters from "pages/Presentation/sections/Counters";
+import CountersRevised from "pages/Presentation/sections/CountersRevised";
 import Information from "pages/Presentation/sections/Information";
 import DesignBlocks from "pages/Presentation/sections/DesignBlocks";
 import Pages from "pages/Presentation/sections/Pages";
@@ -82,10 +83,10 @@ function Presentation() {
                 color="info"
                 size="large"
                 component="a"
-                href="https://www.creative-tim.com/product/material-kit-react"
+                href=""
                 sx={{ mb: 2 }}
               >
-                Download Now
+                {copyHomepage.homepage.cta.button}
               </MKButton>
             </Grid>
             <Grid item xs={12} md={6}>
@@ -113,7 +114,7 @@ function Presentation() {
           boxShadow: ({ boxShadows: { xxl } }) => xxl,
         }}
       >
-        <Counters />
+        <CountersRevised copy={copyHomepage.homepage.counter} />
         <Information />
         <DesignBlocks />
         <Pages />
