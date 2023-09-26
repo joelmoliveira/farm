@@ -20,7 +20,7 @@ import CountersRevised from "pages/Presentation/sections/CountersRevised";
 import Information from "pages/Presentation/sections/Information";
 import DesignBlocks from "pages/Presentation/sections/DesignBlocks";
 import Pages from "pages/Presentation/sections/Pages";
-import Testimonials from "pages/Presentation/sections/Testimonials";
+import TestimonialsRevised from "pages/Presentation/sections/TestimonialsRevised";
 import Download from "pages/Presentation/sections/Download";
 
 // Presentation page components
@@ -165,7 +165,7 @@ function Presentation() {
             </Grid>
           </Grid>
         </Container>
-        <Testimonials />
+        <TestimonialsRevised />
         <Download />
         <MKBox pt={18} pb={6}>
           <Container>

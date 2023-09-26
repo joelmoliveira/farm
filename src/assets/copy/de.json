@@ -15,7 +15,7 @@
     },
     "quote": "Online Angebot"
   },
-  
+
   "homepage": {
     "cta": {
       "title": "Schweizer 3d-Druckservice",
@@ -54,32 +54,45 @@
       "title": "Pages",
       "description": "Save 3-4 weeks of work when you use our pre-made pages for your website"
     },
-    "welcome": "Willkommen auf unserer Homepage",
-    "description": "Hier finden Sie alle Informationen, die Sie benötigen.",
-    "callToAction": "Jetzt entdecken",
-    "howItWorks": {
-      "title": "Wie es funktioniert",
-      "step1": "Schritt 1: Anfrage stellen",
-      "step2": "Schritt 2: Wir bearbeiten Ihre Anfrage",
-      "step3": "Schritt 3: Angebot erhalten",
-      "step4": "Schritt 4: Bestellung abschließen"
+    "testimonial1": {
+      "head1": "We shipped 3d Printed parts",
+      "head2": "for several countries in Europe",
+      "brief": "We have many happy customers all over Europe that just keep on rely on our service"
     },
-    "industries": {
-      "title": "Branchen",
-      "industry1": "Industrie 1",
-      "industry2": "Industrie 2",
-      "industry3": "Industrie 3",
-      "industry4": "Industrie 4"
-    },
-    "technologies": {
-      "title": "Technologien",
-      "technology1": "Technologie 1",
-      "technology2": "Technologie 2",
-      "technology3": "Technologie 3",
-      "technology4": "Technologie 4"
+    "testimonial2": {
+      "name1": "Sarah M.",
+      "time1": "March 2023",
+      "review1": "Thanks to Cheesy Layers, my jewelry designs come to life flawlessly. The quick quotes and precision make them my go-to 3D printing partner.",
+      "name2": "Mark R.",
+      "time2": "May 2023",
+      "review2": "For my engineering projects, Cheesy Layers is a lifesaver. Quick, detailed, and affordable, I highly recommend them.",
+      "name3": "Emily L.",
+      "time3": "September 2023",
+      "review3": "Running a small business, I need quality without breaking the bank. Cheesy Layers lets me expand my range and keeps customers coming back."
     }
   },
-  "contact": {},
-  "onlineQuote": {},
-  "services": {}
+  "welcome": "Willkommen auf unserer Homepage",
+  "description": "Hier finden Sie alle Informationen, die Sie benötigen.",
+  "callToAction": "Jetzt entdecken",
+  "howItWorks": {
+    "title": "Wie es funktioniert",
+    "step1": "Schritt 1: Anfrage stellen",
+    "step2": "Schritt 2: Wir bearbeiten Ihre Anfrage",
+    "step3": "Schritt 3: Angebot erhalten",
+    "step4": "Schritt 4: Bestellung abschließen"
+  },
+  "industries": {
+    "title": "Branchen",
+    "industry1": "Industrie 1",
+    "industry2": "Industrie 2",
+    "industry3": "Industrie 3",
+    "industry4": "Industrie 4"
+  },
+  "technologies": {
+    "title": "Technologien",
+    "technology1": "Technologie 1",
+    "technology2": "Technologie 2",
+    "technology3": "Technologie 3",
+    "technology4": "Technologie 4"
+  }
 }

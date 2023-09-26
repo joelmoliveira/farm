@@ -1,19 +1,3 @@
-/*
-=========================================================
-* Material Kit 2 React - v2.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-kit-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
-// @mui material components
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Divider from "@mui/material/Divider";
@@ -31,6 +15,9 @@ import facebookLogo from "assets/images/logos/gray-logos/logo-facebook.svg";
 import nasaLogo from "assets/images/logos/gray-logos/logo-nasa.svg";
 import vodafoneLogo from "assets/images/logos/gray-logos/logo-vodafone.svg";
 import digitalOceanLogo from "assets/images/logos/gray-logos/logo-digitalocean.svg";
+
+// Copy
+// import de from "assets/copy/de.json";
 
 function Information() {
   return (
