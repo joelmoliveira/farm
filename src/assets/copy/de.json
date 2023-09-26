@@ -69,6 +69,12 @@
       "name3": "Emily L.",
       "time3": "September 2023",
       "review3": "Running a small business, I need quality without breaking the bank. Cheesy Layers lets me expand my range and keeps customers coming back."
+    },
+    "partner": {
+      "head1": "Would you like to work with us?",
+      "subhead": "We are partnering with small brands and local printing shops as a reliable 3d printing manufacturer",
+      "button1": "Small brand",
+      "button2": "Repo service"
     }
   },
   "welcome": "Willkommen auf unserer Homepage",
