@@ -8,7 +8,7 @@ import Divider from "@mui/material/Divider";
 import MKBox from "components/MKBox";
 
 // Material Kit 2 React examples
-import DefaultCounterCard from "examples/Cards/CounterCards/DefaultCounterCard";
+import DefaultInfoCard from "examples/Cards/InfoCards/DefaultInfoCard";
 
 function Counters({ copy }) {
   return (
@@ -17,7 +17,11 @@ function Counters({ copy }) {
         <Grid container item xs={12} lg={9} sx={{ mx: "auto" }}>
           {copy.map((counter, index) => (
             <Grid item xs={12} md={4} key={index}>
-              <DefaultCounterCard title={counter.title} description={counter.description} />
+              <DefaultInfoCard
+                icon={counter.icon}
+                title={counter.title}
+                description={counter.description}
+              />
               {index < copy.length - 1 && (
                 <Divider
                   orientation="vertical"

@@ -113,9 +113,10 @@ function Presentation() {
           boxShadow: ({ boxShadows: { xxl } }) => xxl,
         }}
       >
-        <CountersRevised copy={copyHomepage.homepage.counter} />
-        <Information />
+        <CountersRevised copy={copyHomepage.homepage.counters} />
         <DesignBlocks />
+        <CountersRevised copy={copyHomepage.homepage.howitworks} />
+        <Information />
         <Pages />
         <Container sx={{ mt: 6 }}>
           <BuiltByDevelopers />
