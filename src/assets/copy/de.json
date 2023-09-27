@@ -15,7 +15,6 @@
     },
     "quote": "Online Angebot"
   },
-
   "homepage": {
     "cta": {
       "title": "Schweizer 3d-Druckservice",
@@ -26,55 +25,62 @@
     "counters": [
       {
         "title": "Secure files guaranteed",
-        "icon":"lock"
+        "icon": "lock"
       },
       {
         "title": "Fast turnaround",
-        "icon":"bolt"
+        "icon": "bolt"
       },
       {
         "title": "High-end service and support",
-        "icon":"support"
+        "icon": "support"
       }
     ],
+    "contentBlocks": {
+      "title": "Design Blocks",
+      "description": "A selection of 45 page sections that fit perfectly in any combination",
+      "items": [
+        {
+          "image": "${imagesPrefix}/headers.jpg",
+          "name": "Page Headers",
+          "count": 10,
+          "route": "/sections/page-sections/page-headers"
+        },
+        {
+          "image": "${imagesPrefix}/features.jpg",
+          "name": "Features",
+          "count": 14,
+          "route": "/sections/page-sections/features"
+        },
+        {
+          "image": "${imagesPrefix}/pricing.jpg",
+          "name": "Pricing",
+          "count": 8,
+          "pro": true
+        }
+      ]
+    },
     "howitworks": [
       {
         "title": "You design it",
         "description": "From buttons, to inputs, navbars, alerts or cards, you are covered",
-        "icon":"cloud_upload"
+        "icon": "cloud_upload"
       },
       {
         "title": "We print it",
         "description": "Mix the sections, change the colors and unleash your creativity",
-        "icon":"precision_manufacturing"
+        "icon": "precision_manufacturing"
       },
       {
         "title": "You receive it",
         "description": "Save 3-4 weeks of work when you use our pre-made pages for your website",
-        "icon":"local_shipping"
+        "icon": "local_shipping"
       }
     ],
-    "counter1": {
-      "count": 70,
-      "suffix": "+",
-      "title": "Coded Elements",
-      "description": "From buttons, to inputs, navbars, alerts or cards, you are covered"
-    },
-    "counter2": {
-      "count": 15,
-      "suffix": "+",
-      "title": "Design Blocks",
-      "description": "Mix the sections, change the colors and unleash your creativity"
-    },
-    "counter3": {
-      "count": 4,
-      "title": "Pages",
-      "description": "Save 3-4 weeks of work when you use our pre-made pages for your website"
-    },
     "testimonial1": {
       "head1": "We shipped 3d Printed parts",
       "head2": "for several countries in Europe",
-      "brief": "We have many happy customers all over Europe that just keep on rely on our service"
+      "brief": "We have many happy customers all over Europe that just keep on relying on our service"
     },
     "testimonial2": {
       "name1": "Sarah M.",
