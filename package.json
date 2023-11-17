@@ -1,18 +1,11 @@
 {
-  "name": "material-kit-2-react",
-  "version": "2.1.0",
+  "name": "fat-layers-landing-page",
+  "version": "'0.0.1'",
   "private": true,
-  "author": "Creative Tim",
-  "license": "See license in https://www.creative-tim.com/license",
-  "description": "React version of Material Kit 2 by Creative Tim",
+  "author": "Joel",
+  "license": "",
+  "description": "Landing Page of Fat Layers, based  on React version of Material Kit 2 by Creative Tim",
   "homepage": "./",
-  "bugs": {
-    "url": "https://github.com/creativetimofficial/ct-material-kit-react/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/creativetimofficial/ct-material-kit-react.git"
-  },
   "dependencies": {
     "@emotion/cache": "11.10.7",
     "@emotion/react": "11.10.6",
