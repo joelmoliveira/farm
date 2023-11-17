@@ -1,11 +1,11 @@
 export default {
   background: {
-    default: "#f0f2f5",
+    default: "#E3F3F6", // Pale Blue as the default background color
   },
 
   text: {
-    main: "#7b809a",
-    focus: "#7b809a",
+    main: "#4C7993", // Deep Sky Blue for main text color
+    focus: "#4C7993", // Deep Sky Blue for focused text color
   },
 
   transparent: {
@@ -24,38 +24,38 @@ export default {
   },
 
   primary: {
-    main: "#e91e63",
-    focus: "#e91e63",
+    main: "#ABCFE7", // Soft Blue as primary main color
+    focus: "#86A8B9", // Slate Blue as primary focus color
   },
 
   secondary: {
-    main: "#7b809a",
-    focus: "#8f93a9",
+    main: "#A5C1CF", // Powder Blue as secondary main color
+    focus: "#E3F3F6", // Pale Blue as secondary focus color
   },
 
   info: {
-    main: "#1A73E8",
-    focus: "#1662C4",
+    main: "#C8DFE6", // Light Blue as info main color
+    focus: "#4C7993", // Deep Sky Blue as info focus color
   },
 
   success: {
-    main: "#4CAF50",
-    focus: "#67bb6a",
+    main: "#4CAF50", // Keep the existing green for success
+    focus: "#67bb6a", // Keep the existing success focus color
   },
 
   warning: {
-    main: "#fb8c00",
-    focus: "#fc9d26",
+    main: "#fb8c00", // Keep the existing orange for warning
+    focus: "#fc9d26", // Keep the existing warning focus color
   },
 
   error: {
-    main: "#F44335",
-    focus: "#f65f53",
+    main: "#F44335", // Keep the existing red for error
+    focus: "#f65f53", // Keep the existing error focus color
   },
 
   light: {
-    main: "#f0f2f5",
-    focus: "#f0f2f5",
+    main: "#f0f2f5", // Keep the existing light color
+    focus: "#f0f2f5", // Keep the existing light focus color
   },
 
   dark: {
