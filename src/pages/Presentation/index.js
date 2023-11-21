@@ -63,11 +63,10 @@ function Presentation() {
         }}
       >
         <Container>
-          <Grid container item xs={12} lg={7} justifyContent="center" mx="auto">
+          <Grid container item xs={12} lg={9} justifyContent="center" mx="auto">
             <Grid item xs={12} md={6}>
               <MKTypography
                 variant="h1"
-                color="black"
                 mt={-6}
                 mb={1}
                 sx={({ breakpoints, typography: { size } }) => ({
@@ -90,13 +89,7 @@ function Presentation() {
               </MKButton>
             </Grid>
             <Grid item xs={12} md={6}>
-              <MKTypography
-                variant="body1"
-                color="black"
-                textAlign="left"
-                px={{ xs: 6, lg: 12 }}
-                mt={1}
-              >
+              <MKTypography variant="body1" textAlign="left" px={{ xs: 6, lg: 12 }} mt={1}>
                 {copyHomepage.homepage.cta.description}
               </MKTypography>
             </Grid>

@@ -1,6 +1,6 @@
 {
   "routes": {
-    "home": "Cheesy Farm",
+    "home": "Fat Layers",
     "portfolio": "Portfolio",
     "services": {
       "head": "Dienstleistung",
@@ -99,6 +99,16 @@
       "button1": "Small brand",
       "button2": "Repo service"
     }
+  },
+  "aboutUs": { 
+    "hero": {
+      "title": "About Us",
+      "description": "At Fat Layers, we're passionate about 3D printing and precision. We've simplified the process of turning ideas into reality, serving both individuals and businesses with exceptional quality. Join us as we lead the way in crafting the future, one layer at a time.",
+      "ctaButton": "Mehr erfahren",
+      "button": "Online Angebot"
+    },
+    "title": "About Me",
+    "description": "I am a passionate web developer who loves creating beautiful and functional websites. With years of experience in the field, I am dedicated to delivering high-quality web solutions to clients worldwide." 
   },
   "welcome": "Willkommen auf unserer Homepage",
   "description": "Hier finden Sie alle Informationen, die Sie benötigen.",
