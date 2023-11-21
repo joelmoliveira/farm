@@ -132,6 +132,15 @@
     "title": "About Me",
     "description": "I am a passionate web developer who loves creating beautiful and functional websites. With years of experience in the field, I am dedicated to delivering high-quality web solutions to clients worldwide." 
   },
+  "contactUs": {
+    "title": "Contact Us",
+    "description": "For further questions, including partnership opportunities, please email hello@creative-tim.com or contact using our contact form.",
+    "fullName": "Full Name",
+    "email": "Email",
+    "label": "How can we help?",
+    "messagePlaceholder": "Describe your problem in at least 250 characters",
+    "button": "Send message"
+  },
   "welcome": "Willkommen auf unserer Homepage",
   "description": "Hier finden Sie alle Informationen, die Sie benötigen.",
   "callToAction": "Jetzt entdecken",

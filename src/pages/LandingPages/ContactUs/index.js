@@ -15,10 +15,12 @@ import DefaultFooter from "examples/Footers/DefaultFooter";
 import routes from "routes";
 import footerRoutes from "footer.routes";
 
-// Image
-// import bgImage from "assets/images/illustrations/illustration-reset.jpg";
+// Copy
+import de from "./../../../assets/copy/de.json";
 
 function ContactUs() {
+  const copy = de.contactUs;
+
   return (
     <>
       <MKBox position="fixed" top="0.5rem" width="100%">
@@ -63,20 +65,19 @@ function ContactUs() {
             mt={-3}
           >
             <MKTypography variant="h3" color="white">
-              Contact us
+              {copy.title}
             </MKTypography>
           </MKBox>
           <MKBox p={3}>
             <MKTypography variant="body2" color="text" mb={3}>
-              For further questions, including partnership opportunities, please email
-              hello@creative-tim.com or contact using our contact form.
+              {copy.description}
             </MKTypography>
             <MKBox width="100%" component="form" method="post" autoComplete="off">
               <Grid container spacing={3}>
                 <Grid item xs={12} md={6}>
                   <MKInput
                     variant="standard"
-                    label="Full Name"
+                    label={copy.fullName}
                     InputLabelProps={{ shrink: true }}
                     fullWidth
                   />
@@ -85,7 +86,7 @@ function ContactUs() {
                   <MKInput
                     type="email"
                     variant="standard"
-                    label="Email"
+                    label={copy.email}
                     InputLabelProps={{ shrink: true }}
                     fullWidth
                   />
@@ -93,8 +94,8 @@ function ContactUs() {
                 <Grid item xs={12}>
                   <MKInput
                     variant="standard"
-                    label="What can we help you?"
-                    placeholder="Describe your problem in at least 250 characters"
+                    label={copy.label}
+                    placeholder={copy.messagePlaceholder}
                     InputLabelProps={{ shrink: true }}
                     multiline
                     fullWidth
@@ -104,7 +105,7 @@ function ContactUs() {
               </Grid>
               <Grid container item justifyContent="center" xs={12} mt={5} mb={2}>
                 <MKButton type="submit" variant="gradient" color="info">
-                  Send Message
+                  {copy.button}
                 </MKButton>
               </Grid>
             </MKBox>
