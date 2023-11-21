@@ -6,23 +6,17 @@ import Card from "@mui/material/Card";
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
-// import MKButton from "components/MKButton";
 
 // Material Kit 2 React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import DefaultFooter from "examples/Footers/DefaultFooter";
 
 // About Us page sections
-import Information from "pages/LandingPages/AboutUs/sections/Information";
-import Featuring from "pages/LandingPages/AboutUs/sections/Featuring";
-import Newsletter from "pages/LandingPages/AboutUs/sections/Newsletter";
+import FeaturesList from "pages/LandingPages/AboutUs/sections/FeaturesList";
 
 // Routes
 import routes from "routes";
 import footerRoutes from "footer.routes";
-
-// Images
-// import bgImage from "assets/images/bg-about-us.jpg";
 
 // Copy
 import de from "assets/copy/de.json";
@@ -46,11 +40,6 @@ function AboutUs() {
         minHeight="90vh"
         width="100%"
         sx={{
-          // backgroundImage: ({ functions: { linearGradient, rgba }, palette: { gradients } }) =>
-          //   `${linearGradient(
-          //     rgba(gradients.dark.main, 0.6),
-          //     rgba(gradients.dark.state, 0.6)
-          //   )}, url(${bgImage})`,
           backgroundSize: "cover",
           backgroundPosition: "top",
           display: "grid",
@@ -96,9 +85,7 @@ function AboutUs() {
           boxShadow: ({ boxShadows: { xxl } }) => xxl,
         }}
       >
-        <Information />
-        <Featuring />
-        <Newsletter />
+        <FeaturesList />
       </Card>
       <MKBox pt={6} px={1} mt={6}>
         <DefaultFooter content={footerRoutes} />

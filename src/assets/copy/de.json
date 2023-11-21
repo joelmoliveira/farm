@@ -107,6 +107,28 @@
       "ctaButton": "Mehr erfahren",
       "button": "Online Angebot"
     },
+    "featuresList": {
+      "card1": {
+        "icon": "public",
+        "title": "reogijreojg",
+        "description": "reo+ger+ogjer+gojreo+gjergj"
+      },
+      "card2": {
+        "icon": "payments",
+        "title": "reogijreojg",
+        "description": "reo+ger+ogjer+gojreo+gjergj"
+      },
+      "card3": {
+        "icon": "apps",
+        "title": "reogijreojg",
+        "description": "reo+ger+ogjer+gojreo+gjergj"
+      },
+      "card4": {
+        "icon": "3p",
+        "title": "reogijreojg",
+        "description": "reo+ger+ogjer+gojreo+gjergj"
+      }
+    },
     "title": "About Me",
     "description": "I am a passionate web developer who loves creating beautiful and functional websites. With years of experience in the field, I am dedicated to delivering high-quality web solutions to clients worldwide." 
   },
