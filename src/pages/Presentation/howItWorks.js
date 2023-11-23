@@ -6,7 +6,7 @@ import Card from "@mui/material/Card";
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
-import MKButton from "components/MKButton";
+import MKSocialButton from "components/MKSocialButton";
 
 // Material Kit 2 React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
@@ -14,14 +14,12 @@ import DefaultFooter from "examples/Footers/DefaultFooter";
 import FilledInfoCard from "examples/Cards/InfoCards/FilledInfoCard";
 
 // Presentation page sections
-// import Counters from "pages/Presentation/sections/Counters";
-import CountersRevised from "pages/Presentation/sections/CountersRevised";
+import Counters from "pages/Presentation/sections/Counters";
 import Information from "pages/Presentation/sections/Information";
-// import DesignBlocks from "pages/Presentation/sections/DesignBlocks";
-import ContentBlocks from "pages/Presentation/sections/ContentBlocks";
+import DesignBlocks from "pages/Presentation/sections/DesignBlocks";
 import Pages from "pages/Presentation/sections/Pages";
-import TestimonialsRevised from "pages/Presentation/sections/TestimonialsRevised";
-import Partner from "pages/Presentation/sections/PartnerUs";
+import Testimonials from "pages/Presentation/sections/Testimonials";
+import Download from "pages/Presentation/sections/Download";
 
 // Presentation page components
 import BuiltByDevelopers from "pages/Presentation/components/BuiltByDevelopers";
@@ -31,31 +29,26 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Images
-// import bgImage from "assets/images/bg-presentation.jpg";
+import bgImage from "assets/images/bg-presentation.jpg";
 
-// Copy
-import de from "assets/copy/de.json";
-
-function Presentation() {
-  const copyHomepage = de;
-
+function HowItWorks() {
   return (
     <>
       <DefaultNavbar
         routes={routes}
         action={{
           type: "external",
-          route: "",
-          label: copyHomepage.routes.quote,
+          route: "https://www.creative-tim.com/product/material-kit-react",
+          label: "free download",
           color: "info",
         }}
         sticky
       />
       <MKBox
-        minHeight="90vh"
+        minHeight="75vh"
         width="100%"
         sx={{
-          // backgroundImage: `url(${bgImage})`,
+          backgroundImage: `url(${bgImage})`,
           backgroundSize: "cover",
           backgroundPosition: "top",
           display: "grid",
@@ -63,36 +56,29 @@ function Presentation() {
         }}
       >
         <Container>
-          <Grid container item xs={12} lg={9} justifyContent="center" mx="auto">
-            <Grid item xs={12} md={6}>
-              <MKTypography
-                variant="h1"
-                mt={-6}
-                mb={1}
-                sx={({ breakpoints, typography: { size } }) => ({
-                  [breakpoints.down("md")]: {
-                    fontSize: size["3xl"],
-                  },
-                })}
-              >
-                {copyHomepage.homepage.cta.title}
-              </MKTypography>
-              <MKButton
-                variant="gradient"
-                color="info"
-                size="large"
-                component="a"
-                href=""
-                sx={{ mb: 2 }}
-              >
-                {copyHomepage.homepage.cta.button}
-              </MKButton>
-            </Grid>
-            <Grid item xs={12} md={6}>
-              <MKTypography variant="body1" textAlign="left" px={{ xs: 6, lg: 12 }} mt={1}>
-                {copyHomepage.homepage.cta.description}
-              </MKTypography>
-            </Grid>
+          <Grid container item xs={12} lg={7} justifyContent="center" mx="auto">
+            <MKTypography
+              variant="h1"
+              color="white"
+              mt={-6}
+              mb={1}
+              sx={({ breakpoints, typography: { size } }) => ({
+                [breakpoints.down("md")]: {
+                  fontSize: size["3xl"],
+                },
+              })}
+            >
+              Schweizer 3d-Druckservice{" "}
+            </MKTypography>
+            <MKTypography
+              variant="body1"
+              color="white"
+              textAlign="center"
+              px={{ xs: 6, lg: 12 }}
+              mt={1}
+            >
+              3d-Drucken Online-Service für jedermann. Klicken und drucken
+            </MKTypography>
           </Grid>
         </Container>
       </MKBox>
@@ -107,11 +93,9 @@ function Presentation() {
           boxShadow: ({ boxShadows: { xxl } }) => xxl,
         }}
       >
-        <CountersRevised copy={copyHomepage.homepage.counters} />
-        <ContentBlocks />
-        {/* <DesignBlocks /> */}
-        <CountersRevised copy={copyHomepage.homepage.howitworks} />
+        <Counters />
         <Information />
+        <DesignBlocks />
         <Pages />
         <Container sx={{ mt: 6 }}>
           <BuiltByDevelopers />
@@ -160,8 +144,60 @@ function Presentation() {
             </Grid>
           </Grid>
         </Container>
-        <TestimonialsRevised />
-        <Partner />
+        <Testimonials />
+        <Download />
+        <MKBox pt={18} pb={6}>
+          <Container>
+            <Grid container spacing={3}>
+              <Grid item xs={12} lg={5} ml="auto" sx={{ textAlign: { xs: "center", lg: "left" } }}>
+                <MKTypography variant="h4" fontWeight="bold" mb={0.5}>
+                  Thank you for your support!
+                </MKTypography>
+                <MKTypography variant="body1" color="text">
+                  We deliver the best web products
+                </MKTypography>
+              </Grid>
+              <Grid
+                item
+                xs={12}
+                lg={5}
+                my={{ xs: 5, lg: "auto" }}
+                mr={{ xs: 0, lg: "auto" }}
+                sx={{ textAlign: { xs: "center", lg: "right" } }}
+              >
+                <MKSocialButton
+                  component="a"
+                  href="https://twitter.com/intent/tweet?text=Check%20Material%20Design%20System%20made%20by%20%40CreativeTim%20%23webdesign%20%23designsystem%20%23mui5&amp;url=https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Fmaterial-kit-react"
+                  target="_blank"
+                  color="twitter"
+                  sx={{ mr: 1 }}
+                >
+                  <i className="fab fa-twitter" />
+                  &nbsp;Tweet
+                </MKSocialButton>
+                <MKSocialButton
+                  component="a"
+                  href="https://www.facebook.com/sharer/sharer.php?u=https://www.creative-tim.com/product/material-kit-react"
+                  target="_blank"
+                  color="facebook"
+                  sx={{ mr: 1 }}
+                >
+                  <i className="fab fa-facebook" />
+                  &nbsp;Share
+                </MKSocialButton>
+                <MKSocialButton
+                  component="a"
+                  href="https://www.pinterest.com/pin/create/button/?url=https://www.creative-tim.com/product/material-kit-react"
+                  target="_blank"
+                  color="pinterest"
+                >
+                  <i className="fab fa-pinterest" />
+                  &nbsp;Pin it
+                </MKSocialButton>
+              </Grid>
+            </Grid>
+          </Container>
+        </MKBox>
       </Card>
       <MKBox pt={6} px={1} mt={6}>
         <DefaultFooter content={footerRoutes} />
@@ -170,4 +206,4 @@ function Presentation() {
   );
 }
 
-export default Presentation;
+export default HowItWorks;
