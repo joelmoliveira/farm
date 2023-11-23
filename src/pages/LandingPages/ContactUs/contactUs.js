@@ -1,5 +1,6 @@
 // @mui material components
 import Grid from "@mui/material/Grid";
+import Container from "@mui/material/Container";
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
@@ -23,16 +24,55 @@ function ContactUs() {
 
   return (
     <>
-      <MKBox position="fixed" top="0.5rem" width="100%">
-        <DefaultNavbar
-          routes={routes}
-          action={{
-            type: "external",
-            route: "",
-            label: "free download",
-            color: "default",
-          }}
-        />
+      <DefaultNavbar
+        routes={routes}
+        action={{
+          type: "external",
+          route: "",
+          label: "free download",
+          color: "default",
+        }}
+        sticky
+      />
+      <MKBox
+        minHeight="90vh"
+        width="100%"
+        sx={{
+          backgroundSize: "cover",
+          backgroundPosition: "top",
+          display: "grid",
+          placeItems: "center",
+        }}
+      >
+        <Container>
+          <Grid
+            container
+            item
+            xs={12}
+            lg={10}
+            justifyContent="center"
+            alignItems="center"
+            sx={{ mx: "auto", textAlign: "center" }}
+          >
+            <Grid item xs={12} md={4}>
+              <MKTypography
+                variant="h1"
+                sx={({ breakpoints, typography: { size } }) => ({
+                  [breakpoints.down("md")]: {
+                    fontSize: size["3xl"],
+                  },
+                })}
+              >
+                ergregre
+              </MKTypography>
+            </Grid>
+            <Grid Grid item xs={12} md={8}>
+              <MKTypography variant="body1" textAlign="left" mt={1} mb={3}>
+                regegr
+              </MKTypography>
+            </Grid>
+          </Grid>
+        </Container>
       </MKBox>
       <Grid
         item
