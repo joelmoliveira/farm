@@ -1,6 +1,9 @@
+// importing useeffect library;
+import React from "react";
+
 // @mui material components
 import Grid from "@mui/material/Grid";
-import Container from "@mui/material/Container";
+// import Container from "@mui/material/Container";
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
@@ -34,46 +37,7 @@ function ContactUs() {
         }}
         sticky
       />
-      <MKBox
-        minHeight="90vh"
-        width="100%"
-        sx={{
-          backgroundSize: "cover",
-          backgroundPosition: "top",
-          display: "grid",
-          placeItems: "center",
-        }}
-      >
-        <Container>
-          <Grid
-            container
-            item
-            xs={12}
-            lg={10}
-            justifyContent="center"
-            alignItems="center"
-            sx={{ mx: "auto", textAlign: "center" }}
-          >
-            <Grid item xs={12} md={4}>
-              <MKTypography
-                variant="h1"
-                sx={({ breakpoints, typography: { size } }) => ({
-                  [breakpoints.down("md")]: {
-                    fontSize: size["3xl"],
-                  },
-                })}
-              >
-                ergregre
-              </MKTypography>
-            </Grid>
-            <Grid Grid item xs={12} md={8}>
-              <MKTypography variant="body1" textAlign="left" mt={1} mb={3}>
-                regegr
-              </MKTypography>
-            </Grid>
-          </Grid>
-        </Container>
-      </MKBox>
+      <MKBox minHeight="20vh" width="100%"></MKBox>
       <Grid
         item
         xs={12}
@@ -83,6 +47,11 @@ function ContactUs() {
         xl={4}
         ml={{ xs: "auto", lg: 5 }}
         mr={{ xs: "auto", lg: 5 }}
+        sx={{
+          p: 2,
+          mx: { xs: 2, lg: 3 },
+          boxShadow: ({ boxShadows: { xxl } }) => xxl,
+        }}
       >
         <MKBox
           bgColor="white"
@@ -91,8 +60,6 @@ function ContactUs() {
           display="flex"
           flexDirection="column"
           justifyContent="center"
-          mt={{ xs: 20, sm: 18, md: 20 }}
-          mb={{ xs: 20, sm: 18, md: 20 }}
           mx={3}
         >
           <MKBox

@@ -77,42 +77,42 @@ export default {
 
   gradients: {
     primary: {
-      main: "#EC407A",
+      main: "#ABCFE7", // Soft Blue as primary main color
       state: "#D81B60",
     },
 
     secondary: {
-      main: "#747b8a",
+      main: "#A5C1CF", // Powder Blue as secondary main color
       state: "#495361",
     },
 
     info: {
-      main: "#49a3f1",
+      main: "#C8DFE6", // Light Blue as info main color
       state: "#1A73E8",
     },
 
     success: {
-      main: "#66BB6A",
+      main: "#4CAF50", // Keep the existing green for success
       state: "#43A047",
     },
 
     warning: {
-      main: "#FFA726",
+      main: "#fb8c00", // Keep the existing orange for warning
       state: "#FB8C00",
     },
 
     error: {
-      main: "#EF5350",
+      main: "#F44335", // Keep the existing red for error
       state: "#E53935",
     },
 
     light: {
-      main: "#EBEFF4",
+      main: "#f0f2f5", // Keep the existing light color
       state: "#CED4DA",
     },
 
     dark: {
-      main: "#42424a",
+      main: "#344767",
       state: "#191919",
     },
   },
@@ -181,42 +181,42 @@ export default {
 
   badgeColors: {
     primary: {
-      background: "#f8b3ca",
+      background: "#ABCFE7", // Soft Blue as primary main color
       text: "#cc084b",
     },
 
     secondary: {
-      background: "#d7d9e1",
+      background: "#A5C1CF", // Powder Blue as secondary main color
       text: "#6c757d",
     },
 
     info: {
-      background: "#aecef7",
+      background: "#C8DFE6", // Light Blue as info main color
       text: "#095bc6",
     },
 
     success: {
-      background: "#bce2be",
+      background: "#4CAF50", // Keep the existing green for success
       text: "#339537",
     },
 
     warning: {
-      background: "#ffd59f",
+      background: "#fb8c00", // Keep the existing orange for warning
       text: "#c87000",
     },
 
     error: {
-      background: "#fcd3d0",
+      background: "#F44335", // Keep the existing red for error
       text: "#f61200",
     },
 
     light: {
-      background: "#ffffff",
+      background: "#f0f2f5", // Keep the existing light color
       text: "#c7d3de",
     },
 
     dark: {
-      background: "#8097bf",
+      background: "#344767",
       text: "#1e2e4a",
     },
   },
