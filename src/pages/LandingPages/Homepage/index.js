@@ -17,7 +17,7 @@ import FilledInfoCard from "examples/Cards/InfoCards/FilledInfoCard";
 // import Counters from "pages/Presentation/sections/Counters";
 import CountersRevised from "pages/Presentation/sections/CountersRevised";
 import Information from "pages/Presentation/sections/Information";
-import DesignBlocks from "pages/Presentation/sections/DesignBlocks";
+// import DesignBlocks from "pages/Presentation/sections/DesignBlocks";
 import ContentBlocks from "pages/Presentation/sections/ContentBlocks";
 import Pages from "pages/Presentation/sections/Pages";
 import TestimonialsRevised from "pages/Presentation/sections/TestimonialsRevised";
@@ -111,14 +111,13 @@ function Homepage() {
         <CountersRevised copy={copyHomepage.homepage.counters} />
         <Title
           headline={copyHomepage.homepage.headlines.headline1}
-          py={2}
+          py={0}
           // subheadline={copyHomepage.homepage.headlines.subheadline1}
         />
         <CountersRevised copy={copyHomepage.homepage.howitworks} />
         <ContentBlocks />
-        <DesignBlocks />
+        {/* <DesignBlocks /> */}
         {/* How it works block */}
-        {/* Information */}
         <Information />
         {/* Pages */}
         <Pages />

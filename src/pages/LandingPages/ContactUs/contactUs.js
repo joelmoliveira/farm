@@ -9,8 +9,6 @@ import Grid from "@mui/material/Grid";
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
-// import MKInput from "components/MKInput";
-// import MKButton from "components/MKButton";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
@@ -78,9 +76,6 @@ function ContactUs() {
             </MKTypography>
           </MKBox>
           <MKBox p={3}>
-            <MKTypography variant="body2" color="text" mb={3}>
-              {copy.description}
-            </MKTypography>
             <HubspotForm
               portalId="143694599"
               formId="e363868a-f208-4265-983b-75d1c7d96316"
@@ -88,43 +83,6 @@ function ContactUs() {
               onReady={() => console.log("Form ready!")}
               loading={<div>Loading...</div>}
             />
-            {/* <MKBox width="100%" component="form" method="post" autoComplete="off">
-              <Grid container spacing={3}>
-                <Grid item xs={12} md={6}>
-                  <MKInput
-                    variant="standard"
-                    label={copy.fullName}
-                    InputLabelProps={{ shrink: true }}
-                    fullWidth
-                  />
-                </Grid>
-                <Grid item xs={12} md={6}>
-                  <MKInput
-                    type="email"
-                    variant="standard"
-                    label={copy.email}
-                    InputLabelProps={{ shrink: true }}
-                    fullWidth
-                  />
-                </Grid>
-                <Grid item xs={12}>
-                  <MKInput
-                    variant="standard"
-                    label={copy.label}
-                    placeholder={copy.messagePlaceholder}
-                    InputLabelProps={{ shrink: true }}
-                    multiline
-                    fullWidth
-                    rows={6}
-                  />
-                </Grid>
-              </Grid>
-              <Grid container item justifyContent="center" xs={12} mt={5} mb={2}>
-                <MKButton type="submit" variant="gradient" color="info">
-                  {copy.button}
-                </MKButton>
-              </Grid>
-            </MKBox> */}
           </MKBox>
         </MKBox>
       </Grid>

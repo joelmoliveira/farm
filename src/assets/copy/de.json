@@ -47,19 +47,16 @@
       "description": "A selection of 45 page sections that fit perfectly in any combination",
       "items": [
         {
-          "image": "${imagesPrefix}/headers.jpg",
           "name": "Page Headers",
           "count": 10,
           "route": "/sections/page-sections/page-headers"
         },
         {
-          "image": "${imagesPrefix}/features.jpg",
           "name": "Features",
           "count": 14,
           "route": "/sections/page-sections/features"
         },
         {
-          "image": "${imagesPrefix}/pricing.jpg",
           "name": "Pricing",
           "count": 8,
           "pro": true
