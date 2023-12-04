@@ -10,7 +10,7 @@ import MKBox from "components/MKBox";
 // Material Kit 2 React examples
 import DefaultInfoCard from "examples/Cards/InfoCards/DefaultInfoCard";
 
-function Counters({ copy }) {
+function CountersRevised({ copy }) {
   return (
     <MKBox component="section" py={3}>
       <Container>
@@ -37,7 +37,7 @@ function Counters({ copy }) {
 }
 
 // Add PropTypes validation
-Counters.propTypes = {
+CountersRevised.propTypes = {
   copy: PropTypes.arrayOf(
     PropTypes.shape({
       title: PropTypes.string.isRequired,
@@ -46,4 +46,4 @@ Counters.propTypes = {
   ).isRequired,
 };
 
-export default Counters;
+export default CountersRevised;

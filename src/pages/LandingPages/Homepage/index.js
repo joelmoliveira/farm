@@ -22,6 +22,7 @@ import ContentBlocks from "pages/Presentation/sections/ContentBlocks";
 import Pages from "pages/Presentation/sections/Pages";
 import TestimonialsRevised from "pages/Presentation/sections/TestimonialsRevised";
 import Partner from "pages/Presentation/sections/PartnerUs";
+import Title from "pages/Presentation/components/Title";
 
 // Presentation page components
 import BuiltByDevelopers from "pages/Presentation/components/BuiltByDevelopers";
@@ -108,10 +109,15 @@ function Homepage() {
         }}
       >
         <CountersRevised copy={copyHomepage.homepage.counters} />
+        <Title
+          headline={copyHomepage.homepage.headlines.headline1}
+          py={2}
+          // subheadline={copyHomepage.homepage.headlines.subheadline1}
+        />
+        <CountersRevised copy={copyHomepage.homepage.howitworks} />
         <ContentBlocks />
         <DesignBlocks />
         {/* How it works block */}
-        <CountersRevised copy={copyHomepage.homepage.howitworks} />
         {/* Information */}
         <Information />
         {/* Pages */}

@@ -1,5 +1,7 @@
 // importing useeffect library;
 import React from "react";
+// import { useEffect } from "react";
+import HubspotForm from "react-hubspot-form";
 
 // @mui material components
 import Grid from "@mui/material/Grid";
@@ -7,8 +9,8 @@ import Grid from "@mui/material/Grid";
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
-import MKInput from "components/MKInput";
-import MKButton from "components/MKButton";
+// import MKInput from "components/MKInput";
+// import MKButton from "components/MKButton";
 import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
@@ -79,7 +81,14 @@ function ContactUs() {
             <MKTypography variant="body2" color="text" mb={3}>
               {copy.description}
             </MKTypography>
-            <MKBox width="100%" component="form" method="post" autoComplete="off">
+            <HubspotForm
+              portalId="143694599"
+              formId="e363868a-f208-4265-983b-75d1c7d96316"
+              onSubmit={() => console.log("Submit!")}
+              onReady={() => console.log("Form ready!")}
+              loading={<div>Loading...</div>}
+            />
+            {/* <MKBox width="100%" component="form" method="post" autoComplete="off">
               <Grid container spacing={3}>
                 <Grid item xs={12} md={6}>
                   <MKInput
@@ -115,7 +124,7 @@ function ContactUs() {
                   {copy.button}
                 </MKButton>
               </Grid>
-            </MKBox>
+            </MKBox> */}
           </MKBox>
         </MKBox>
       </Grid>
