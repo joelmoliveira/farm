@@ -109,13 +109,12 @@ function Homepage() {
         }}
       >
         <CountersRevised copy={copyHomepage.homepage.counters} />
+        <ContentBlocks />
         <Title
           headline={copyHomepage.homepage.headlines.headline1}
           py={0}
           // subheadline={copyHomepage.homepage.headlines.subheadline1}
         />
-        <CountersRevised copy={copyHomepage.homepage.howitworks} />
-        <ContentBlocks />
         {/* <DesignBlocks /> */}
         {/* How it works block */}
         <Information />

@@ -126,23 +126,6 @@
         }
       ]
     },
-    "howitworks": [
-      {
-        "title": "You design it",
-        "description": "From buttons, to inputs, navbars, alerts or cards, you are covered",
-        "icon": "cloud_upload"
-      },
-      {
-        "title": "We print it",
-        "description": "Mix the sections, change the colors and unleash your creativity",
-        "icon": "precision_manufacturing"
-      },
-      {
-        "title": "You receive it",
-        "description": "Save 3-4 weeks of work when you use our pre-made pages for your website",
-        "icon": "local_shipping"
-      }
-    ],
     "testimonial1": {
       "head1": "We shipped 3d Printed parts",
       "head2": "for several countries in Europe",
