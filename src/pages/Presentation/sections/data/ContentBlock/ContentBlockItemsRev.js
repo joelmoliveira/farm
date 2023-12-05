@@ -20,9 +20,9 @@ function ContentBlockItemsRev({ data }) {
       </Grid>
       <Grid item xs={12} lg={9}>
         <Grid container spacing={3}>
-          {data.items.map(({ name, count }) => (
+          {data.items.map(({ icon, title, description }) => (
             <Grid item xs={12} md={4} sx={{ mb: 2 }} key={name}>
-              <ExampleRev name={name} count={count} />
+              <ExampleRev icon={icon} title={title} description={description} />
             </Grid>
           ))}
         </Grid>
@@ -39,11 +39,8 @@ ContentBlockItemsRev.propTypes = {
     description: PropTypes.string.isRequired,
     items: PropTypes.arrayOf(
       PropTypes.shape({
-        image: PropTypes.string.isRequired,
-        name: PropTypes.string.isRequired,
-        count: PropTypes.number.isRequired,
-        route: PropTypes.string.isRequired,
-        pro: PropTypes.bool,
+        title: PropTypes.string.isRequired,
+        description: PropTypes.string.isRequired,
       })
     ).isRequired,
   }).isRequired,

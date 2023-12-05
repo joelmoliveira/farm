@@ -44,41 +44,83 @@
     ],
     "contentBlocks": {
       "title": "Design Blocks",
-      "description": "A selection of 45 page sections that fit perfectly in any combination",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id metus eget risus malesuada cursus. ",
       "items": [
         {
-          "title": "Design Blocks",
+          "title": "How it works",
           "description": "A selection of 45 page sections that fit perfectly in any combination",
           "items": [
             {
-              "image": "${imagesPrefix}/headers.jpg",
-              "name": "Page Headers",
-              "count": 10,
-              "route": "/sections/page-sections/page-headers"
+              "icon": "cloud_upload",
+              "title": "Submit your design",
+              "description": "Simply upload your 3D model to get started"
             },
             {
-              "image": "${imagesPrefix}/features.jpg",
-              "name": "Features",
-              "count": 14,
-              "route": "/sections/page-sections/features"
+              "icon": "precision_manufacturing",
+              "description": "Our advanced technology takes care of the printing process",
+              "title": "We print it"
+            },
+            {
+              "icon": "local_shipping",
+              "description": "Your exceptional 3D-printed creation is delivered to your doorstep.",
+              "title": "You receive it"
             }
           ]
         },
         {
-          "title": "Navigation",
-          "description": "30+ components that will help go through the pages",
+          "title": "Applications",
+          "description": "Discover the Versatility of Fat Layers' 3D Printing Solutions",
           "items": [
             {
-              "image": "${imagesPrefix}/navbars.jpg",
-              "name": "Navbars",
-              "count": 4,
-              "route": "/sections/navigation/navbars"
+              "icon": "",
+              "title": "Prototyping",
+              "description": "Innovation starts with a prototype. Fat Layers accelerates your product development process by providing rapid and high-quality prototyping services. Test your ideas with confidence, knowing that precision is our priority."
             },
             {
-              "image": "${imagesPrefix}/nav-tabs.jpg",
-              "name": "Nav Tabs",
-              "count": 2,
-              "route": "/sections/navigation/nav-tabs"
+              "icon": "",
+              "description": "Scale models, prototypes, and intricate designs—the possibilities are endless. Whether you're a model enthusiast or a professional model maker, Fat Layers' 3D printing capabilities enable you to create stunning, detailed models with ease.",
+              "title": "Models"
+            },
+            {
+              "icon": "",
+              "description": "Enhance your living space with custom home solutions. From unique decor items to personalized fixtures, Fat Layers helps you transform your home into a reflection of your style and creativity. ",
+              "title": "Home Solutions"
+            },
+            {
+              "icon": "",
+              "description": "Small businesses and entrepreneurs, take your production to the next level. Fat Layers is your partner in small-scale manufacturing, delivering quality parts on demand. Say goodbye to excess inventory and hello to efficiency.",
+              "title": "Small Scale Production"
+            },
+            {
+              "icon": "",
+              "description": "Architects and designers, elevate your projects with precision 3D models. Fat Layers empowers you to transform your visions into tangible structures. From intricate details to scaled-down prototypes, our technology brings architecture to life.",
+              "title": "Architecture"
+            } 
+          ]
+        },
+        {
+          "title": "Technologies ",
+          "description": "Empowering Innovation through Advanced 3D Printing Technology",
+          "items": [
+            {
+              "icon": "",
+              "title": "Materials: A Palette of Possibilities",
+              "description": "We offer a diverse range of materials to bring your creations to life. From the versatile PLA and PETG to the robust ABS, Nylon, PC, and the strength of Carbon Fiber-based filament, our selection ensures that your projects are equipped with the perfect material for success."
+            },
+            {
+              "icon": "",
+              "description": "We specialize in Fused Deposition Modeling (FDM), a cutting-edge 3D printing technology known for its precision and efficiency. FDM allows us to produce detailed and high-quality parts with speed, setting the industry standard for excellence.",
+              "title": "Leading with FDM"
+            },
+            {
+              "icon": "",
+              "description": "Our commitment goes beyond printing. We offer expert consulting services to validate your 3D models for printing. Our team of specialists ensures that your designs are optimized for the best results, saving you time and resources.",
+              "title": "Consulting"
+            },
+            {
+              "icon": "",
+              "description": "We prioritize your data security. Our 3D printing pipeline is local and completely independent, ensuring that your intellectual property remains confidential and secure with us. Your designs and ideas are in safe hands.",
+              "title": "Security"
             }
           ]
         }
