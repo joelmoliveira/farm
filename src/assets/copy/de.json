@@ -47,19 +47,40 @@
       "description": "A selection of 45 page sections that fit perfectly in any combination",
       "items": [
         {
-          "name": "Page Headers",
-          "count": 10,
-          "route": "/sections/page-sections/page-headers"
+          "title": "Design Blocks",
+          "description": "A selection of 45 page sections that fit perfectly in any combination",
+          "items": [
+            {
+              "image": "${imagesPrefix}/headers.jpg",
+              "name": "Page Headers",
+              "count": 10,
+              "route": "/sections/page-sections/page-headers"
+            },
+            {
+              "image": "${imagesPrefix}/features.jpg",
+              "name": "Features",
+              "count": 14,
+              "route": "/sections/page-sections/features"
+            }
+          ]
         },
         {
-          "name": "Features",
-          "count": 14,
-          "route": "/sections/page-sections/features"
-        },
-        {
-          "name": "Pricing",
-          "count": 8,
-          "pro": true
+          "title": "Navigation",
+          "description": "30+ components that will help go through the pages",
+          "items": [
+            {
+              "image": "${imagesPrefix}/navbars.jpg",
+              "name": "Navbars",
+              "count": 4,
+              "route": "/sections/navigation/navbars"
+            },
+            {
+              "image": "${imagesPrefix}/nav-tabs.jpg",
+              "name": "Nav Tabs",
+              "count": 2,
+              "route": "/sections/navigation/nav-tabs"
+            }
+          ]
         }
       ]
     },
@@ -103,7 +124,7 @@
       "button2": "Repo service"
     }
   },
-  "aboutUs": { 
+  "aboutUs": {
     "hero": {
       "title": "About Us",
       "description": "At Fat Layers, we're passionate about 3D printing and precision. We've simplified the process of turning ideas into reality, serving both individuals and businesses with exceptional quality. Join us as we lead the way in crafting the future, one layer at a time.",
@@ -133,7 +154,7 @@
       }
     },
     "title": "About Me",
-    "description": "I am a passionate web developer who loves creating beautiful and functional websites. With years of experience in the field, I am dedicated to delivering high-quality web solutions to clients worldwide." 
+    "description": "I am a passionate web developer who loves creating beautiful and functional websites. With years of experience in the field, I am dedicated to delivering high-quality web solutions to clients worldwide."
   },
   "contactUs": {
     "title": "Contact Us",

@@ -3,9 +3,9 @@ import { PropTypes } from "prop-types";
 import Grid from "@mui/material/Grid";
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
-import ExampleCard from "pages/Presentation/components/ExampleCard";
+import ExampleRev from "pages/Presentation/components/ExampleCard/exampleRev";
 
-function ContentBlockItems({ data }) {
+function ContentBlockItemsRev({ data }) {
   return (
     <Grid container spacing={3} sx={{ mb: 10 }}>
       <Grid item xs={12} lg={3}>
@@ -22,7 +22,7 @@ function ContentBlockItems({ data }) {
         <Grid container spacing={3}>
           {data.items.map(({ name, count }) => (
             <Grid item xs={12} md={4} sx={{ mb: 2 }} key={name}>
-              <ExampleCard name={name} count={count} />
+              <ExampleRev name={name} count={count} />
             </Grid>
           ))}
         </Grid>
@@ -31,16 +31,19 @@ function ContentBlockItems({ data }) {
   );
 }
 
-export default ContentBlockItems;
+export default ContentBlockItemsRev;
 
-ContentBlockItems.propTypes = {
+ContentBlockItemsRev.propTypes = {
   data: PropTypes.shape({
     title: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     items: PropTypes.arrayOf(
       PropTypes.shape({
+        image: PropTypes.string.isRequired,
         name: PropTypes.string.isRequired,
         count: PropTypes.number.isRequired,
+        route: PropTypes.string.isRequired,
+        pro: PropTypes.bool,
       })
     ).isRequired,
   }).isRequired,

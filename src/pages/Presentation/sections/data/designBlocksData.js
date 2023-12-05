@@ -7,7 +7,7 @@ export default [
     description: "A selection of 45 page sections that fit perfectly in any combination",
     items: [
       {
-        // image: `${imagesPrefix}/headers.jpg`,
+        image: `${imagesPrefix}/headers.jpg`,
         name: "Page Headers",
         count: 10,
         route: "/sections/page-sections/page-headers",
