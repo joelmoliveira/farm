@@ -23,6 +23,7 @@ import Pages from "pages/Presentation/sections/Pages";
 import TestimonialsRevised from "pages/Presentation/sections/TestimonialsRevised";
 import Partner from "pages/Presentation/sections/PartnerUs";
 import Title from "pages/Presentation/components/Title";
+import FileUpload from "examples/Cards/viwSTL/stl";
 
 // Presentation page components
 import BuiltByDevelopers from "pages/Presentation/components/BuiltByDevelopers";
@@ -108,6 +109,7 @@ function Homepage() {
           boxShadow: ({ boxShadows: { xxl } }) => xxl,
         }}
       >
+        <FileUpload />
         <CountersRevised copy={copyHomepage.homepage.counters} />
         <ContentBlocks />
         <Title
